@@ -98,7 +98,7 @@ public class Main {
                
                 System.out.println("Your meal plan:\nBreakfast: " + breakfastChoice + "\nLunch: " + lunchChoice + "\nDinner: " + dinnerChoice);
                 break;
-            }
+            }            
             System.out.println("Family member count must be between 1 and 6 (inclusive)");
         }
     }

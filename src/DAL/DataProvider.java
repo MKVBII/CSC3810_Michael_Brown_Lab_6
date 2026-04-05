@@ -10,6 +10,11 @@ import java.util.List;
 public class DataProvider {
 
     public static List<String> callGetRecipesByServingCount(int servingCount) {
+
+        if (servingCount < 1) {
+            return null;
+        }
+
         List<String> recipes = new ArrayList<>();
         try {
             Connection conn = DataMgr.getMealPlanningConnection();

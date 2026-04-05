@@ -29,8 +29,7 @@ public class DalTests {
     @Test
     public void testGetReciplesByInvalidServingSize() {
         List<String> recipes = DataProvider.callGetRecipesByServingCount(0);
-        assertNotNull(recipes);
-        assertTrue("Invalid serving count should return no recipes", recipes.isEmpty());
+        assertNull(recipes);
     }
 
     @Test
