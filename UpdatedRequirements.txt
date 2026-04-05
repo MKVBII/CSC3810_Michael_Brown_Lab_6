@@ -1,0 +1,7 @@
+1. User must feed their entire family for a full day
+2. There can be between 1 and 6 members of their family
+3. Each day has three meals (breakfast, lunch and dinner)
+4. User can select which meal they want for breakfast, lunch or dinner
+5. If the user enters an invalid meal choice, they are reprompted until they pick a valid one
+6. If the user enters a non numeric input for family size, an error is thrown
+7. The user can pick the same recipe for multiple meals
